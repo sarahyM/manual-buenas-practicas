@@ -1,16 +1,46 @@
-# manual-buenas-practicas
-## 2. Herramientas de Colaboración y Trabajo en Equipo
+# Manual de Buenas Prácticas para el Trabajo Colaborativo Universitario
+## Gestión de Proyectos y Control de Versiones con GitHub
 
-En el entorno educativo actual, la capacidad de trabajar de forma sincronizada y asíncrona es vital. Las herramientas de colaboración digital permiten que la distancia geográfica no sea un impedimento para la productividad. Plataformas como GitHub, aunque tradicionalmente asociadas al desarrollo de software, se han convertido en aliados potentes para la redacción de documentos técnicos y manuales, gracias a su sistema de control de versiones que permite rastrear cada cambio realizado por los integrantes del equipo sin riesgo de perder información.
+---
 
-Por otro lado, herramientas de edición en la nube como Google Docs o Microsoft 365 facilitan la lluvia de ideas inicial y la redacción colaborativa en tiempo real. Estas plataformas permiten que varios usuarios editen un mismo archivo simultáneamente, dejando comentarios y sugerencias que agilizan el proceso de revisión. Sin embargo, para proyectos que requieren una estructura más rígida y técnica, la combinación de Markdown con repositorios en la nube ofrece una limpieza visual y una portabilidad que otros procesadores de texto convencionales no pueden igualar.
+### Descripción del Proyecto
+Este repositorio alberga un manual técnico diseñado para optimizar la colaboración académica entre estudiantes. El objetivo principal es estandarizar procesos de organización, gestión de tiempos y formatos de entrega, utilizando **Git** como herramienta central para el control de versiones y la integridad de los documentos.
 
-Complementariamente, la gestión de la comunicación debe ser centralizada para evitar la dispersión de información. El uso de tableros tipo Kanban (como los proyectos de GitHub o Trello) ayuda a visualizar el flujo de trabajo: qué tareas están pendientes, cuáles están en proceso y qué se ha finalizado con éxito. Esta transparencia operativa reduce la necesidad de reuniones constantes y permite que cada miembro del equipo sea autónomo en sus responsabilidades asignadas.
+### Objetivo
+Fomentar una cultura de trabajo eficiente y modular, aplicando metodologías de la ingeniería de software a la creación de documentación académica de alta calidad.
 
-## 3. Estrategias de Gestión de Tiempos
+---
 
-El éxito de un proyecto grupal no depende solo del talento individual, sino de una administración eficiente del tiempo. Una de las mayores dificultades en el ámbito universitario es la procrastinación y la falta de coordinación en las fechas de entrega. Para mitigar esto, es recomendable implementar la técnica Pomodoro, que consiste en trabajar en bloques de 25 minutos de alta concentración seguidos de descansos cortos. Este método ayuda a mantener la agilidad mental y evita el agotamiento prematuro durante sesiones extensas de investigación o redacción.
+### Estructura del Repositorio
+La organización de este proyecto sigue una jerarquía lógica para facilitar el mantenimiento y la escalabilidad:
 
-Otra estrategia fundamental es la Matriz de Eisenhower, que permite clasificar las tareas en cuatro cuadrantes según su importancia y urgencia. Al identificar qué actividades son críticas, el equipo puede priorizar el cumplimiento de los hitos principales del manual antes de enfocarse en detalles estéticos o secundarios. Establecer "deadlines" internos, al menos 48 horas antes de la entrega oficial, proporciona un margen de maniobra esencial para resolver imprevistos técnicos o conflictos de última hora en el documento.
+* **/documentos**: Contiene los archivos fuente en formato Markdown y borradores del manual.
+* **/imagenes**: Almacena los recursos visuales, diagramas y capturas de pantalla utilizados.
+* **/referencias**: Repositorio de fuentes bibliográficas y material de apoyo técnico.
+* **CHANGELOG.md**: Registro histórico y detallado de todas las modificaciones y versiones.
 
-La planificación debe ser dinámica pero estructurada. El uso de cronogramas compartidos asegura que todos los integrantes estén alineados con los objetivos semanales. Es vital entender que la gestión del tiempo no se trata de trabajar más horas, sino de optimizar las horas disponibles mediante la eliminación de distracciones y la división de grandes tareas en subtareas más pequeñas y manejables, lo que genera un sentido de progreso constante y motivación en el grupo.
+---
+
+### Metodología de Trabajo
+Para garantizar la calidad del producto final, el equipo implementó el siguiente flujo de trabajo:
+
+1.  **Gestión de Tareas**: Uso de *GitHub Issues* para la asignación de responsabilidades y *GitHub Projects* (Kanban) para el seguimiento del progreso.
+2.  **Desarrollo por Ramas**: Cada sección del manual fue redactada en una rama independiente para evitar colisiones en el código principal.
+3.  **Revisión de Pares**: Se establecieron *Pull Requests* obligatorios, donde cada contribución fue auditada y comentada por un integrante del equipo antes de su fusión a la rama *main*.
+4.  **Versionado**: Uso de *Tags* para hitos específicos (v1.0, v1.1), asegurando la trazabilidad de los cambios.
+
+---
+
+### Instrucciones de Contribución
+Para colaborar en este proyecto, siga estos pasos:
+
+1.  Seleccione un *Issue* pendiente en el tablero de proyecto.
+2.  Cree una nueva rama con un nombre descriptivo: `git checkout -b seccion/nombre-tarea`.
+3.  Realice los cambios necesarios y ejecute un `commit` con un mensaje claro.
+4.  Suba la rama al repositorio y abra un *Pull Request* para revisión.
+
+---
+
+### Autores
+* **Sarahy Ocanto** - Gestión de Estructura y Formato Técnico.
+* **Norlys Castañeda** - Investigación de Normativas y Metodologías.
