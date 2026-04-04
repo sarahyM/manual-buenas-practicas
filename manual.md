@@ -1,4 +1,4 @@
-Thought for 3s# Manual de Buenas Prácticas para Trabajos Universitarios en Grupo
+# Manual de Buenas Prácticas para Trabajos Universitarios en Grupo
 
 ## Índice
 
