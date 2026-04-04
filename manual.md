@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./imagenes/logo.png" alt="Logo de la Universidad" width="200"/>
+</p>
+
 # Manual de Buenas Prácticas para Trabajos Universitarios en Grupo
 
 ## Índice
